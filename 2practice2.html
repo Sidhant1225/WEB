@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a,#b,#c,#d{
+            height:200px;
+            width:200px;
+            background-color: aqua;
+            outline:3.5px dotted green;
+            border:3px dashed red;
+        }
+        #a,#c{
+            position:absolute;
+        }
+        #b,#d{
+            position:relative;
+            margin-left:225px;
+        }
+        #c,#d{
+            margin-top:20px;
+        }
+        #a,#d{
+            border-radius: 20% 80%;
+        }
+        #b,#c{
+            border-radius: 80% 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+</body>
+</html>
