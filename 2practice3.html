@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #table{
+
+          border-collapse: collapse;
+           width: 50%;
+          
+        }
+        #table tr:nth-child(even){
+            background-color: #fde9d9;
+        }
+      
+            .headings{
+                border-top: 1px solid #f79646;
+            border-bottom: 1px solid #f79646;
+            border-right: 1px solid #ddd;
+            padding: 8px;
+            background-color: #fde9d9;
+           
+            
+
+        }
+        #table td{
+            border-top: 1px solid #f79646;
+            border-bottom: 1px solid #f79646;
+            border-right: 1px solid #ddd;
+            padding: 3px;
+           
+            
+
+        }
+        #main{
+            color: #fff;
+            background-color: #f79646;
+           letter-spacing: 0.3em;
+            font-size: x-large;
+        }
+        .align{
+            text-align: right;
+        }
+        #last{
+            background-color: #687886;
+            color: #fff;
+            border-bottom: 1px solid #687886;
+            border-top: 1px solid #687886;
+
+        }
+    </style>
+</head>
+<body>
+    <table  id="table">
+        <tr>
+            <th id="main" colspan="4">Employee Timecard</th>
+        </tr>
+        <tr>
+            <th class="headings">Day</th>
+            <th class="headings">Regular</th>
+            <th class="headings">Overtime</th>
+            <th class="headings">Total</th>
+        </tr>
+        <tr>
+           <td>Monday</td>
+           <td class="align">8</td>
+           <td class="align">0</td>
+           <td class="align">8</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td class="align">8</td>
+            <td class="align">2.5</td>
+            <td class="align">10.5</td>
+         </tr>
+         <tr>
+            <td>Wednesday</td>
+            <td class="align">8</td>
+            <td class="align">0</td>
+            <td class="align">8</td>
+         </tr>
+         <tr>
+            <td>Friday</td>
+            <td class="align">8</td>
+            <td class="align">0</td>
+            <td class="align">8</td>
+         </tr>
+         <tr>
+            <td>Saturday</td>
+            <td class="align">0</td>
+            <td class="align">5</td>
+            <td class="align">5</td>
+         </tr>
+         <tr>
+            <td>Sunday</td>
+            <td class="align">0</td>
+            <td class="align">1</td>
+            <td class="align">1</td>
+         </tr>
+         <tr id="last">
+             <td style="text-align: center;">Total weekly hours:</td>
+             <td style="text-align: right;">40</td>
+             <td style="text-align: right;">8.5</td>
+             <td style="text-align: right;">48.5</td>
+         </tr>
+ 
+
+    </table>
+</body>
+</html>
