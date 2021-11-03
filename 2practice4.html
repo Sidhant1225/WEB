@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            align-content: center;
+            text-align: center;
+            width: 35%;
+            margin: 0 auto;
+            border-color: red;
+        }
+        #table{
+            border-collapse: collapse;
+           border-bottom: 1px white;
+           border-right: 1px white;
+            
+            
+        }
+        #table tr:nth-child(even){
+            background-color: #e0f0e9;
+        }
+        #table tr:nth-child(odd){
+            background-color: #b3edcf;
+        }
+       #table td {
+           border-right: 2px solid white;
+           border-bottom: 2px solid white;
+           border-top: 2px solid white;
+           width: 100px;
+           text-align: left;
+       }
+       #table td:hover{
+           background-color: yellow;
+       }
+       #table th{
+        border-right: 2px solid white;
+        width: 100px;
+       }
+       /* b{
+         color: blue;
+       } */
+       #p1{
+           color: blue;
+       }
+       .fletter::first-letter{
+           color: red;
+       }
+       #table2{
+           border-collapse: collapse;
+           width: 65%;
+           
+       }
+       .para1{
+           margin-top: 150px;
+           margin-left: 80px;
+           margin-bottom: 0px;
+           
+       }
+       .para2{
+        margin-top: 150px;
+        margin-bottom: 0px;
+       }
+       .para3{
+           margin-bottom: 150px;
+           margin-left: 80px;
+           margin-top: 0px;
+       }
+       .para4{
+        margin-bottom: 150px;
+        margin-top: 0px;
+       }
+       #table2 td{
+           width: 25%;
+           
+           border-right: 2px solid white;
+           border-bottom: 2px solid white;
+       }
+       #table2 tr:nth-child(odd){
+        background-color: #b3edcf;
+       }
+       #table2 tr:nth-child(even){
+            background-color: #e0f0e9;
+        }
+      #table2 td:hover{
+          background-color: yellow;
+      }
+
+      
+    </style>
+</head>
+<body>
+    <div id="upper">
+    <fieldset>
+        <legend><p id="p1"> <b class="fletter">Event</b> <b class="fletter">Schedule</b></p>   </legend>
+            <table id="table" align="center" >
+                <tr>
+                    <th>Name</th>
+                    <th>Venue</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>AA</td>
+                    <td>AAA</td>
+                    <td>AAAA</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>BB</td>
+                    <td>BBB</td>
+                    <td>BBBB</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>CC</td>
+                    <td>CCC</td>
+                    <td>CCCC</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>DD</td>
+                    <td>DDD</td>
+                    <td>DDDD</td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td>EE</td>
+                    <td>EEE</td>
+                    <td>EEEE</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>FF</td>
+                    <td>FFF</td>
+                    <td>FFFF</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>GG</td>
+                    <td>GGG</td>
+                    <td>GGGG</td>
+                </tr>
+            </table>
+        </fieldset>
+            <div class="lower">
+                <table id="table2" align="center">
+                    <tr>
+                        <td>
+                            <p class="para1">
+                                A wedding planner is a professional who assists with the <br>
+                                design planning and management of the client's wedding.
+                            </p>
+                        </td>
+                        <td>
+                            <p class="para2">
+                                A wedding planner is a professional who assists with the <br>
+                                design planning and management of the client's wedding.
+                            </p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="para3">
+                                A wedding planner is a professional who assists with the <br>
+                                design planning and management of the client's wedding.
+                            </p>
+                        </td>
+                        <td>
+                            <p class="para4">
+                                A wedding planner is a professional who assists with the <br>
+                                design planning and management of the client's wedding.
+                            </p>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+       
+    
+</div>
+</body>
+</html>
